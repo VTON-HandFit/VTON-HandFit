@@ -12,11 +12,11 @@
 This is the offical code repository of “[VTON-HandFit: Virtual Try-on for Arbitrary Hand Pose Guided by Hand Priors Embedding.](https://arxiv.org/pdf/2408.12340)” The code and dataset will be available soon.
 
 ![image-20240810162757820](./images/aaai24_figure_1.png)
-## To Do
-- [ ] demo model
-- [ ] inference code
+## ToDo
+- [ ] Demo model
+- [ ] Inference code
 - [ ] Handfit-3k dataset 
-- [ ] training code
+- [ ] Training code
 ## Citation
 ```
 @article{liang2024vton,
