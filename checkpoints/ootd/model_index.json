@@ -1,0 +1,30 @@
+{
+  "_class_name": "HandFitPipeline",
+  "_diffusers_version": "0.24.0.dev0",
+  "_name_or_path": "",
+  "feature_extractor": [
+    "transformers",
+    "CLIPImageProcessor"
+  ],
+  "requires_safety_checker": true,
+  "safety_checker": [
+    "stable_diffusion",
+    "StableDiffusionSafetyChecker"
+  ],
+  "scheduler": [
+    "diffusers",
+    "PNDMScheduler"
+  ],
+  "unet_garm": [
+    "pipelines_HandFit.unet_garm_2d_condition",
+    "UNetGarm2DConditionModel"
+  ],
+  "unet_vton": [
+    "pipelines_HandFit.unet_vton_2d_condition",
+    "UNetVton2DConditionModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKL"
+  ]
+}

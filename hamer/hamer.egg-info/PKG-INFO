@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: hamer
+Version: 0.0.0
+Summary: HaMeR as a package
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.md
+Requires-Dist: gdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pyrender
+Requires-Dist: pytorch-lightning
+Requires-Dist: scikit-image
+Requires-Dist: smplx==0.1.28
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: yacs
+Requires-Dist: detectron2@ git+https://github.com/facebookresearch/detectron2
+Requires-Dist: chumpy@ git+https://github.com/mattloper/chumpy
+Requires-Dist: mmcv==1.3.9
+Requires-Dist: timm
+Requires-Dist: einops
+Requires-Dist: xtcocotools
+Requires-Dist: pandas
+Provides-Extra: all
+Requires-Dist: hydra-core; extra == "all"
+Requires-Dist: hydra-submitit-launcher; extra == "all"
+Requires-Dist: hydra-colorlog; extra == "all"
+Requires-Dist: pyrootutils; extra == "all"
+Requires-Dist: rich; extra == "all"
+Requires-Dist: webdataset; extra == "all"
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+UNKNOWN
