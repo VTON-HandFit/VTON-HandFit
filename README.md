@@ -10,7 +10,9 @@ This is the offical code repository of “[VTON-HandFit: Virtual Try-on for Arbi
 
 ![image-20240810162757820](./examples/figure1_0827.png)
 </div>
+
 ## Installation
+
 We recommend creating a virtual environment for Handfit, you can create it with
 ```
 conda env create -f environment.yml
